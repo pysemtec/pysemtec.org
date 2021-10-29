@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}{{ SITENAME }}{% endblock %}
+
+{% block extra_meta %}
+    <meta property="og:title" content="python-related semantic technologies">
+    <meta property="og:description" content="Community focusing on python projects related to semantic technologies (knowledge graphs, ontologies, ...)">
+    <meta property="og:image" content="https://pysemtec.org/img/pysemtec-logo.png">
+    <meta property="og:url" content="https://pysemtec.org/">
+    <meta name="twitter:card" content="summary_large_image">
+{% endblock %}
+
+
+{% block content %}
+
+{{ page.content }}
+
+{% endblock %}
+
+
+
+

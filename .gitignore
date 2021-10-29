@@ -1,0 +1,4 @@
+.directory
+docs/*
+__pycache__/*
+upload_content.sh
