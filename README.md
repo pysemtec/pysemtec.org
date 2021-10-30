@@ -22,4 +22,5 @@ This repo contains the sources (markdown-content, themes, download files) (but n
 - Commit your changes to the content and theme (but not yet the the content of `doc`).
 - Run `make publish`
 - Ensure that you are on the default branch of the repo (i.e. `main`).
-- `bash upload_content.sh` (only available for admins)
+- `bash make_and_upload_content.sh` (only available for admins)
+

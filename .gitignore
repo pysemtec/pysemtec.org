@@ -1,4 +1,4 @@
 .directory
 docs/*
 __pycache__/*
-upload_content.sh
+make_and_upload_content.sh
